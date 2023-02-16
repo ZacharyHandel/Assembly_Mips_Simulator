@@ -1,0 +1,1 @@
+//This file will include all the mechanics for the manual
