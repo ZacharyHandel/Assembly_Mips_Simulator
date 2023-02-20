@@ -1,5 +1,5 @@
 # Mips Assembly Language Simulator
-This is my assembly language mips simulator. It will include a registry, slots in memory, and the ability to code in assembly to manipulate the registry and the memory slots. This software will be within the consol and is written in C++.
+This is my assembly language mips simulator. It will include a registry, slots in memory, and the ability to code in assembly to manipulate the registry and the memory slots. This software will be within the console and is written in C++.
 
 ## Desired Features
 ### Menu Screen
