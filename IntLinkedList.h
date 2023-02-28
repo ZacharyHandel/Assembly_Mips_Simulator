@@ -21,7 +21,7 @@ class IntLinkedList {
             Node *newNode = new Node;   //create pointer to a new node
             newNode->data = newValue;
             newNode->next = first;
-
+            first = newNode;
             count++;
 
             if(last == NULL) {
@@ -134,8 +134,7 @@ class IntLinkedList {
                 cout << "No items in list." << endl;
             }
             while(current != NULL) {
-                cout << "\t";
-                current->data;
+                cout << current->data << " " << endl;
                 current = current->next;
             }
         }
