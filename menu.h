@@ -3,6 +3,8 @@
 using namespace std;
 class Menu {
     public:
+
+        //Description: This function will print the menu options for the user. It will then accept the option input and run the selectOption function
         void printMenu(){
             cout << "Mips Assembly Simulator" << endl;
             cout << "1. Write Code" << endl;
@@ -11,14 +13,15 @@ class Menu {
             cout << "4. Edit Memory Slots" << endl;
             cout << "5. Manual" << endl;
             cout << "6. Exit" << endl;
-            acceptInput();
+            inputOption();
             selectOption(option);
         }
         
-        void acceptInput(){
+        void inputOption(){
             cin >> option;
         }
 
+        //Description: this function will run the functionality of the menu. 
         void selectOption(int option){
             switch(option){
                 case 1:
